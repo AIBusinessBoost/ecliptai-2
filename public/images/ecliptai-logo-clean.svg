@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00BFFF" />
+      <stop offset="100%" stop-color="#0066CC" />
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B0E0FF" />
+      <stop offset="100%" stop-color="#0066CC" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Circuit board design with clean edges -->
+  <g id="circuit-design">
+    <!-- Left arc -->
+    <path d="M200,150 A250,250 0 0,0 200,450" fill="none" stroke="url(#logo-gradient)" stroke-width="12" stroke-linecap="round" />
+    
+    <!-- Right arc -->
+    <path d="M600,150 A250,250 0 0,1 600,450" fill="none" stroke="url(#logo-gradient)" stroke-width="12" stroke-linecap="round" />
+    
+    <!-- Circuit lines top -->
+    <path d="M250,180 L300,180 L300,150 L350,150 M370,150 L420,150 L420,180 L470,180 M490,180 L540,180 L540,150 L590,150" fill="none" stroke="url(#logo-gradient)" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Circuit lines bottom -->
+    <path d="M250,420 L300,420 L300,450 L350,450 M370,450 L420,450 L420,420 L470,420 M490,420 L540,420 L540,450 L590,450" fill="none" stroke="url(#logo-gradient)" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Circuit nodes -->
+    <circle cx="350" cy="150" r="10" fill="url(#logo-gradient)" />
+    <circle cx="370" cy="150" r="10" fill="url(#logo-gradient)" />
+    <circle cx="470" cy="180" r="10" fill="url(#logo-gradient)" />
+    <circle cx="490" cy="180" r="10" fill="url(#logo-gradient)" />
+    <circle cx="590" cy="150" r="10" fill="url(#logo-gradient)" />
+    
+    <circle cx="350" cy="450" r="10" fill="url(#logo-gradient)" />
+    <circle cx="370" cy="450" r="10" fill="url(#logo-gradient)" />
+    <circle cx="470" cy="420" r="10" fill="url(#logo-gradient)" />
+    <circle cx="490" cy="420" r="10" fill="url(#logo-gradient)" />
+    <circle cx="590" cy="450" r="10" fill="url(#logo-gradient)" />
+  </g>
+  
+  <!-- EcliptAI text with gradient -->
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="120" font-weight="bold" text-anchor="middle" fill="url(#text-gradient)">ecliptAI</text>
+  
+  <!-- TM mark just below AI -->
+  <text x="550" y="340" font-family="Arial, sans-serif" font-size="20" font-weight="normal" text-anchor="middle" fill="url(#text-gradient)">TM</text>
+</svg>
